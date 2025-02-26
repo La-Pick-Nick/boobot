@@ -1,7 +1,5 @@
-# data.py (Файл для хранения данных викторины)
 import json
 
-# Указываем путь к файлу с данными викторины
 DICT_DATA = 'data/quiz_data.json'
 
 quiz_data = [
@@ -57,6 +55,5 @@ quiz_data = [
     },
 ]
 
-# Записываем данные quiz_data в JSON-файл
 with open(DICT_DATA, 'w') as file:
     json.dump(quiz_data, file, indent=4, ensure_ascii=False)
