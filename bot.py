@@ -12,7 +12,7 @@ from database import create_db_connection
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-API_TOKEN = '7849385666:AAH7g5wfj6IzRCfkj7Cjg7V20b9GVpYwA5o' # Замените на ваш токен
+API_TOKEN = '7849385666:AAH7g5wfj6IzRCfkj7Cjg7V20b9GVpYwA5o' 
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
